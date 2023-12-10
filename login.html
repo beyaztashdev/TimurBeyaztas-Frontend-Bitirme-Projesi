@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scss/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./scss/style.css">
+  <title>Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- !TOP contact info -->
+  <div class="bg-secondary-subtle">
+    <div class="container d-flex align-items-center justify-content-between p-1">
+      <div class="d-flex gap-4">
+        <a href="tel:+2 95 01 88 821" class="link-orange link-underline link-underline-opacity-0 text-secondary-emphasis"><i class="fa-solid fa-phone"></i> +2 95 01 88 821</a>
+        <a href="e-mail:info@domain.com" class="link-orange link-underline link-underline-opacity-0 text-secondary-emphasis"><i class="fa-solid fa-envelope"></i> info@domain.com</a>
+      </div>
+
+      <ul class="d-flex gap-4 my-0 list-unstyled">
+        <li><a href="#" class="link-orange link-underline link-underline-opacity-0 text-secondary-emphasis"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="#" class="link-orange link-underline link-underline-opacity-0 text-secondary-emphasis"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#" class="link-orange link-underline link-underline-opacity-0 text-secondary-emphasis"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href="#" class="link-orange link-underline link-underline-opacity-0 text-secondary-emphasis"><i class="fa-solid fa-basketball"></i></a></li>
+        <li><a href="#" class="link-orange link-underline link-underline-opacity-0 text-secondary-emphasis"><i class="fa-brands fa-google-plus-g"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- !HEADER -->
+  <header>
+    <div class="container">
+      <div class="d-flex row align-items-center my-3 p-0">
+        <div class="d-flex col-md col-sm justify-content-sm-center justify-content-lg-start mb-sm-3 mb-lg-0">
+          <div class="dropdown d-flex align-items-center">
+            <a href="./index.html" class="main-fs link-underline link-underline-opacity-0 text-secondary fs-5">ESHOPPER</a>
+          
+            <button class="btn btn-outline-secondary dropdown-toggle ms-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">USA</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">EUROPE</a></li>
+              <li><a class="dropdown-item" href="#">TURKEY</a></li>
+              <li><a class="dropdown-item" href="#">RUSSIA</a></li>
+            </ul>
+          
+            <button class="btn btn-outline-secondary dropdown-toggle ms-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">DOLLAR</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">EURO</a></li>
+              <li><a class="dropdown-item" href="#">TURKISH LIRA</a></li>
+              <li><a class="dropdown-item" href="#">RUBLE</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <ul class="d-flex align-items-center list-unstyled gap-3 my-0 col-md col-sm justify-content-lg-end justify-content-sm-center">
+          <li><a href="#" class="link-orange d-flex gap-1 align-items-center link-underline link-underline-opacity-0 text-secondary"><i class="fa-solid fa-user"></i>Account</a></li>
+          <li><a href="#" class="link-orange d-flex gap-1 align-items-center link-underline link-underline-opacity-0 text-secondary"><i class="fa-solid fa-star"></i>Wishlist</a></li>
+          <li><a href="#" class="link-orange d-flex gap-1 align-items-center link-underline link-underline-opacity-0 text-secondary"><i class="fa-solid fa-crosshairs"></i>Checkout</a></li>
+          <li><a href="./cart.html" class="position-relative link-orange d-flex gap-1 align-items-center link-underline link-underline-opacity-0 text-secondary"><i class="fa-solid fa-cart-shopping"></i>Cart<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-orange" id="countItem">0</span> </a></li>
+          <li><a href="./login.html" class="link-orange d-flex gap-1 align-items-center link-underline link-underline-opacity-0 text-secondary"><i class="fa-solid fa-lock"></i>Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="container bg-secondary">
+  </header>
+
+  <!-- !NAVBAR -->
+  <nav class="container navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="link-orange nav-link active" aria-current="page" href="/index.html">Home</a></li>
+          <li class="nav-item dropdown"><a class="link-orange nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown"><a class="link-orange nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="link-orange nav-link" href="#">404</a></li>
+          <li class="nav-item"><a class="link-orange nav-link" href="/contact.html">Contact</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn bg-orange" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- !LOGIN -->
+  <section>
+    <div class="container">
+      <div class="row justify-content-center align-items-center my-5 py-5 px-5">
+
+        <div class="col-lg-5 col-sm-12">
+          <p class="fs-3 text-secondary fw-light">Login to your account</p>
+          <div>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control bg-secondary-subtle" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+              <input type="password" class="form-control bg-secondary-subtle" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group d-flex align-items-center">
+              <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+              <p class="ms-2 mb-0">Keep me signed in</p>
+            </div>
+            <button type="button" class="btn bg-orange mt-2">Login</button>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-sm-12 d-flex align-items-center justify-content-center">
+          <div class="badge rounded-pill bg-orange">
+            <p class="text-white text-uppercase fs-1 m-0">or</p>
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-sm-12">
+          <p class="fs-3 text-secondary fw-light">New User Signup!</p>
+            <div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control bg-secondary-subtle" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <input type="password" class="form-control bg-secondary-subtle" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <input type="password" class="form-control bg-secondary-subtle" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+              </div>
+              <button type="button" class="btn bg-orange mt-2">Signup</button>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- !FOOTER -->
+  <footer class="bg-body-secondary mt-5">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-md-12 col-lg-3">
+          <p class="main-fs fs-3 fw-bold text-uppercase">eshopper</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laborum est cum alias quia, totam quidem facilis. Repellat, tenetur voluptates?</p>
+        </div>
+
+        <div class="col-md-4 col-lg-2 pt-2">
+          <p class="text-uppercase fw-bold">service</p>
+          <ul class="list-unstyled my-4">
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Online Help</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Contact Us</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Order Status</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Change Location</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">FAQ's</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-lg-2 pt-2">
+          <p class="text-uppercase fw-bold">policies</p>
+          <ul class="list-unstyled my-4">
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Terms of Use</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Privecy Policy</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Refund Policy</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Billing System</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Ticket System</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-lg-2 pt-2">
+          <p class="text-uppercase fw-bold">about shopper</p>
+          <ul class="list-unstyled my-4">
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Company Information</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Careers</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Store Location</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Affillate Program</a></li>
+            <li class="my-2"><a href="#" class="link-orange link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Copyright</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-12 col-lg-3 pt-2">
+          <p class="text-uppercase fw-bold">about shopper</p>
+          <div class="input-group mt-4">
+            <input type="text" class="form-control" placeholder="Your email address" aria-label="Your email address" aria-describedby="button-addon2">
+            <button class="btn bg-orange text-white" type="button" id="button-addon2"><i class="fa-solid fa-circle-arrow-right"></i></button>
+          </div>
+          <p class="mt-3 text-secondary">Get the most recent updates from our site and be updated your self...</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bg-secondary-subtle">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <p class="text-secondary-emphasis m-0 my-2">Copyright © 2023 ESHOPPER Inc. All rights reserved.</p>
+          <p class="text-secondary-emphasis m-0 my-2">Designed by <a href="#" class="text-warning fst-italic">Themeum</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/6e146aad93.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

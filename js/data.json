@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"name": "BOHEMGIYIM",
+		"price": 55,
+		"desc": "lorem Tempor labore et eos dolor sed labore dolore, ut sed diam tempor diam accusam. ",
+		"img": "./img/1.png"
+	},
+	{
+		"id": 2,
+		"name": "WNWGKN",
+		"price": 55,
+		"desc": "lorem Tempor labore et eos dolor sed labore dolore, ut sed diam tempor diam accusam. ",
+		"img": "./img/2.png"
+	},
+	{
+		"id": 3,
+		"name": "Isaac",
+		"price": 55,
+		"desc": "lorem Tempor labore et eos dolor sed labore dolore, ut sed diam tempor diam accusam. ",
+		"img": "./img/3.png"
+	},
+	{
+		"id": 4,
+		"name": "Altamira",
+		"price": 55,
+		"desc": "lorem Tempor labore et eos dolor sed labore dolore, ut sed diam tempor diam accusam. ",
+		"img": "./img/4.png"
+	},
+	{
+		"id": 5,
+		"name": "KMKkombin",
+		"price": 55,
+		"desc": "lorem Tempor labore et eos dolor sed labore dolore, ut sed diam tempor diam accusam. ",
+		"img": "./img/5.png"
+	},
+	{
+		"id": 6,
+		"name": "Madmext",
+		"price": 55,
+		"desc": "lorem Tempor labore et eos dolor sed labore dolore, ut sed diam tempor diam accusam. ",
+		"img": "./img/6.png"
+	}
+]

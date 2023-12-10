@@ -1,0 +1,27 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.link-orange {
+  &:hover {
+    color: #FE980F !important;
+  }
+}
+
+.main-fs::first-letter {
+  color: #FE980F !important;
+}
+
+.orange {
+  color: #FE980F;
+}
+
+.bg-orange {
+  background-color: #FE980F;
+  color: white;
+}
+
+button.bg-orange:hover{
+    background-color: #fdaa3e;
+    color: white;
+  }
